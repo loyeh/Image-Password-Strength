@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100dvw;
+  height: 100dvh;
+  background-image: url("./images/GA_ATL_PITTSBURGH_82772_161_RT-2_RT-5f7457.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+}
+
+.main {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2.5vmin;
+}
+
+.container {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding-inline: 3vmin;
+}
+
+h2,
+p {
+  text-align: center;
+}
+
+p {
+  font-size: 0.8em;
+  margin-bottom: 2vmin;
+}
+
+input,
+button {
+  margin-top: 1vmin;
+  margin-bottom: 2vmin;
+  height: 10%;
+  /* width: 80%; */
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding-left: 2vmin;
+  outline: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 2vmin;
+}
